@@ -11,10 +11,14 @@ const Bio = () => {
         </div>
         <div className="bio-content">
           <div className="bio-image" data-aos="fade-right">
-            <img 
-              src="/assets/images/bio/professional-photo.jpg" 
+            <img
+              src="/assets/bio.jpg"
               alt="Towner Galaher - Professional Photo"
               className="bio-photo"
+              loading="lazy"
+              decoding="async"
+              width="800"
+              height="800"
             />
           </div>
           <div className="bio-text" data-aos="fade-left">

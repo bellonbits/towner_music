@@ -14,6 +14,13 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image">
+            <img
+              src="/assets/g1.jpg"
+              alt="Towner Galaher performing on drums"
+              loading="eager"
+              decoding="async"
+              className="hero-main-image"
+            />
             <div className="floating-icon" style={{ top: '20%', left: '0%' }}>
               <Radio size={40} />
             </div>

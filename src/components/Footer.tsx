@@ -2,7 +2,7 @@ import { Facebook, Instagram, Youtube, Music2, Mail, Phone, MapPin } from 'lucid
 
 const Footer = () => {
   const navItems = [
-    'Home', 'Bio', 'Recordings', 'Performances', 'Reviews',
+    'Home', 'News', 'Bio', 'Recordings', 'Performances', 'Reviews',
     'Education', 'Gallery', 'Videos', 'Essays', 'Contact'
   ];
 

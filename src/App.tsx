@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Home from './components/Home';
+import News from './components/News';
 import Bio from './components/Bio';
 import Recordings from './components/Recordings';
 import Performances from './components/Performances';
@@ -36,6 +37,7 @@ function App() {
       <Navigation />
       <Hero />
       <Home />
+      <News />
       <Bio />
       <Recordings />
       <Performances />
